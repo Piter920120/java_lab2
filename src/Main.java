@@ -9,7 +9,20 @@ public class Main {
         b) w drugiej pętli continue
         c) w trzeciej pętli return
         */
-
+    for (int i = 0; i <= 10; i++) {
+            if (i % 4 == 0)
+                continue;
+            System.out.print(i + " ");
+        }
+        for (int i = 0; i <= 50; i++) {
+            if (i == 18)
+                break;
+            System.out.print(i + " ");
+        } for (int i = 0; i <= 60; i++) {
+            if (i == 25)
+                return;
+            System.out.print(i + " ");
+        }
 
     }
 }
