@@ -94,7 +94,7 @@ public class Main {
         public static void wyswietlTablice2(String[] tablica2)
         {
             System.out.println(" Słowa w odwrotnej kolejnosci : ");
-                    for(int i = tablica2.length; i >= 0; i--)
+                    for(int i = tablica2.length-1; i >= 0; i--)
                     {
                         System.out.print(tablica2[i]);
                     }
