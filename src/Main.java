@@ -23,6 +23,7 @@ public class Main {
         dodajZwierze(lista1);
         zlapZwierze(lista1);
         sortujZwierze(lista1);
+        zlapZwierze(lista1);
 
          /* zad.2 Napisać program który stworzy Set<Integer> i wprowadzamy 10 liczb z klawiatury
                 niech liczby się powtarzają, proszę posortować a następnie wyświetlić zawartość set-a w konsoli
@@ -50,7 +51,7 @@ public class Main {
     public static void zlapZwierze(List<String> lista1){
         System.out.println("\nZwierze : ");
         for(String zmienna : lista1){
-            System.out.print(zmienna);
+            System.out.println(zmienna);
         }
     }
 
@@ -78,7 +79,7 @@ public class Main {
 
     public static void zlapNumer(Set<Integer> numery){
         System.out.println("\nLiczby: ");
-        for(Integer a: numery){
+        for(Integer a : numery){
             System.out.println(a);
         }
     }
