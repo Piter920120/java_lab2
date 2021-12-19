@@ -52,7 +52,7 @@ public class Main {
          */
 
         String text = "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo";
-        int[] tablica = {0, 0, 0,0,0};
+        int[] tablica = {0, 0, 0,0,0,0};
 
         for (char zmiennaChar : text.toCharArray()) {
             switch (zmiennaChar) {
